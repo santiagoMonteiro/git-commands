@@ -37,5 +37,7 @@ git diff // diferenças entre estado atual e último commit
 git diff --name-only // nome dos arquivos que foram modificados
 git diff <nome-do-arquivo> // diferença referente a um arquivo específico
 git checkout HEAD -- <nome-do-arquivo> // retirar as alterações atuais
+ 
+git pull origin master --allow-unrelated-histories // fazer o pull quando o merge é impossibilitado
 
 
