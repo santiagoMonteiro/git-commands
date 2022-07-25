@@ -25,6 +25,7 @@ git push origin main
 git pull
 
 git clone {url do repositorio} # clonar repositorio
+git clone git@hostname:company/project.git # clonar repositório com host específico
 git clone -b <branchname> <remote-repo-url> # clonar branch específica
 
 git reset --soft <hash>
